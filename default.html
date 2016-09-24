@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table of the Elements</title>
+    <style>
+        header {
+            text-align: center;
+        }
+        table {
+            border-spacing: 0;
+            width: 100%;
+            padding-left: 1px;
+        }
+
+        th, td {
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .tablediv {
+            overflow-x: auto;
+        }
+
+        .blankcell {
+            border: 0;      
+        }
+
+        .alkali{
+            background-color:#00ffff;
+        }
+
+        .alkaline{
+            background-color:#ffd800;
+        }
+
+        .transition{
+            background-color:#d35050;
+        }
+        .noblegas{
+            background-color:#7486cc;
+        }
+        .nonmetals{
+            background-color:#71ea48;
+        }
+        .metalloids{
+            background-color:#d14be5;
+        }
+        .othermetals{
+            background-color:#f87528;
+        }
+        .lanthanoids{
+            background-color:#f62f1b;
+        }
+        .actinoids{
+            background-color:#95b024;
+        }
+
+        .circle {           
+            border-radius: 50%;            
+            font-size:small;
+            font-stretch:extra-condensed;
+            text-align: center;
+            padding:2px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>
+            The Periodic Table of the Elements
+        </h1>
+    </header>
+    <main>
+        <i><b> Hover over Symbol to view name.</b> </i>
+        <div class="tablediv">
+            <table>    
+
+                <tr>
+                    <td title="Hydrogen"><small>1</small><h3><strong>H</strong></h3></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>                    
+                    <td class="blankcell" colspan="2" > <div class="circle alkali">Alkali </div></td> 
+                    <td class="blankcell"></td>
+                    <td class="blankcell" colspan="2"><div class="circle alkaline">Alkaline </div> </td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell" colspan="2"><div class="circle transition">Transition </div> </td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="noblegas" title="Helium"><small>2</small><h3><strong>He</strong></h3></td>
+                </tr>
+                
+                <tr>
+                    <td class="alkali" title="Lithium"><small>3</small><h3><strong>Li</strong></h3></td>
+                    <td class="alkaline" title="Beryllium"><small>4</small><h3><strong>Be</strong></h3></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell" colspan="2"><div class="circle noblegas">Noble Gases </div> </td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell" colspan="2"><div class="circle nonmetals">Nonmetals </div> </td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"colspan="2"><div class="circle metalloids">Metalloids</div></td>
+                    <td class="blankcell"></td>
+                    <td class="metalloids" title="Boron"><small>5</small><h3><strong>B</strong></h3></td>
+                    <td class="nonmetals" title="Carbon"><small>6</small><h3><strong>C</strong></h3></td>
+                    <td class="nonmetals" title="Nitrogen"><small>7</small><h3><strong>N</strong></h3></td>
+                    <td class="nonmetals" title="Oxygen"><small>8</small><h3><strong>O</strong></h3></td>
+                    <td class="nonmetals" title="Fluorine"><small>9</small><h3><strong>F</strong></h3></td>                    
+                    <td class="noblegas" title="Neon"><small>10</small><h3><strong>Ne</strong></h3></td>
+                </tr>
+                
+                <tr>
+                    <td class="alkali" title="Sodium"><small>11</small><h3><strong>Na</strong></h3></td>
+                    <td class="alkaline" title="Magnesium"><small>12</small><h3><strong>Mg</strong></h3></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell " colspan="2"><div class="circle othermetals">Other Metals</div></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell " colspan="2"><div class="circle lanthanoids">Lanthanoids</div> </td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell " colspan="2"><div class="circle actinoids">Actinoids</div></td>
+                    <td class="blankcell"></td>
+                    <td class="othermetals" title="Aluminum"><small>13</small><h3><strong>Al</strong></h3></td>
+                    <td class="metalloids" title="Silicon"><small>14</small><h3><strong>Si</strong></h3></td>
+                    <td class="nonmetals" title="Phosphorus"><small>15</small><h3><strong>P</strong></h3></td>
+                    <td class="nonmetals" title="Sulfur"><small>16</small><h3><strong>S</strong></h3></td>
+                    <td class="nonmetals" title="Chlorine"><small>17</small><h3><strong>Cl</strong></h3></td>                    
+                    <td class="noblegas" title="Argon"><small>18</small><h3><strong>Ar</strong></h3></td>
+                </tr>
+
+                            
+                <tr>
+                    <td class="alkali" title="Potassium"><small>19</small><h3><strong>K</strong></h3></td>
+                    <td class="alkaline" title="Calcium"><small>20</small><h3><strong>Ca</strong></h3></td>
+                    <td class="transition" title="Scandium"><small>21</small><h3><strong>Sc</strong></h3></td>
+                    <td class="transition" title="Titanium"><small>22</small><h3><strong>Ti</strong></h3></td>
+                    <td class="transition" title="Vanadium"><small>23</small><h3><strong>V</strong></h3></td>
+                    <td class="transition" title="Chromium"><small>24</small><h3><strong>Cr</strong></h3></td>
+                    <td class="transition" title="Manganese"><small>25</small><h3><strong>Mn</strong></h3></td>
+                    <td class="transition" title="Iron"><small>26</small><h3><strong>Fe</strong></h3></td>
+                    <td class="transition" title="Cobalt"><small>27</small><h3><strong>Co</strong></h3></td>
+                    <td class="transition" title="Nickel"><small>28</small><h3><strong>Ni</strong></h3></td>
+                    <td class="transition" title="Copper"><small>29</small><h3><strong>Cu</strong></h3></td>
+                    <td class="transition" title="Zinc"><small>30</small><h3><strong>Zn</strong></h3></td>
+                    <td class="othermetals" title="Gallium"><small>31</small><h3><strong>Ga</strong></h3></td>
+                    <td class="metalloids" title="Germanium"><small>32</small><h3><strong>Ge</strong></h3></td>
+                    <td class="metalloids" title="Arsenic"><small>33</small><h3><strong>As</strong></h3></td>
+                    <td class="nonmetals" title="Selenium"><small>34</small><h3><strong>Se</strong></h3></td>
+                    <td class="nonmetals" title="Bromine"><small>35</small><h3><strong>Br</strong></h3></td>
+                    <td class="noblegas" title="Krypton"><small>36</small><h3><strong>Kr</strong></h3></td>
+                </tr>
+
+                <tr>
+                    <td class="alkali" title="Rubidium"><small>37</small><h3><strong>Rb</strong></h3></td>
+                    <td class="alkaline" title="Strontium"><small>38</small><h3><strong>Sr</strong></h3></td>
+                    <td class="transition" title="Yttrium"><small>39</small><h3><strong>Y</strong></h3></td>
+                    <td class="transition" title="Zirconium"><small>40</small><h3><strong>Zr</strong></h3></td>
+                    <td class="transition" title="Niobium"><small>41</small><h3><strong>Nb</strong></h3></td>
+                    <td class="transition" title="Molybdenum"><small>42</small><h3><strong>Mo</strong></h3></td>
+                    <td class="transition" title="Technetium"><small>43</small><h3><strong>Tc</strong></h3></td>
+                    <td class="transition" title="Ruthenium"><small>44</small><h3><strong>Ru</strong></h3></td>
+                    <td class="transition" title="Rhodium"><small>45</small><h3><strong>Rh</strong></h3></td>
+                    <td class="transition" title="Palladium"><small>46</small><h3><strong>Pd</strong></h3></td>
+                    <td class="transition" title="Silver"><small>47</small><h3><strong>Ag</strong></h3></td>
+                    <td class="transition" title="Cadmium"><small>48</small><h3><strong>Cd</strong></h3></td>
+                    <td class="othermetals" title="Indium"><small>49</small><h3><strong>In</strong></h3></td>
+                    <td class="othermetals" title="Tin"><small>50</small><h3><strong>Sn</strong></h3></td>
+                    <td class="metalloids" title="Antimony"><small>51</small><h3><strong>Sb</strong></h3></td>
+                    <td class="metalloids" title="Tellurium"><small>52</small><h3><strong>Te</strong></h3></td>
+                    <td class="nonmetals" title="Iodine"><small>53</small><h3><strong>I</strong></h3></td>
+                    <td class="noblegas" title="Xenon"><small>54</small><h3><strong>Xe</strong></h3></td>
+                </tr>
+
+                <tr>
+                    <td class="alkali" title="Cesium"><small>55</small><h3><strong>Cs</strong></h3></td>
+                    <td class="alkaline" title="Barium"><small>56</small><h3><strong>Ba</strong></h3></td>
+                    <td class="transition" title="Lanthanum"><small>57</small><h3><strong>La</strong></h3></td>
+                    <td class="transition" title="Hafnium"><small>72</small><h3><strong>Hf</strong></h3></td>
+                    <td class="transition" title="Tantalum"><small>73</small><h3><strong>Ta</strong></h3></td>
+                    <td class="transition" title="Tungsten"><small>74</small><h3><strong>W</strong></h3></td>
+                    <td class="transition" title="Rhenium"><small>75</small><h3><strong>Re</strong></h3></td>
+                    <td class="transition" title="Osmium"><small>76</small><h3><strong>Os</strong></h3></td>
+                    <td class="transition" title="Iridium"><small>77</small><h3><strong>Ir</strong></h3></td>
+                    <td class="transition" title="Platinum"><small>78</small><h3><strong>Pt</strong></h3></td>
+                    <td class="transition" title="Gold"><small>79</small><h3><strong>Au</strong></h3></td>
+                    <td class="transition" title="Mercury"><small>80</small><h3><strong>Hg</strong></h3></td>
+                    <td class="othermetals" title="Thallium"><small>81</small><h3><strong>Tl</strong></h3></td>
+                    <td class="othermetals" title="Lead"><small>82</small><h3><strong>Pb</strong></h3></td>
+                    <td class="othermetals" title="Bismuth"><small>83</small><h3><strong>Bi</strong></h3></td>
+                    <td class="othermetals" title="Polonium"><small>84</small><h3><strong>Po</strong></h3></td>
+                    <td class="nonmetals" title="Astatine"><small>85</small><h3><strong>At</strong></h3></td>
+                    <td class="noblegas" title="Radon"><small>86</small><h3><strong>Rn</strong></h3></td>
+                </tr>
+
+                <tr>
+                    <td class="alkali" title="Francium"><small>87</small><h3><strong>Fr</strong></h3></td>
+                    <td class="alkaline" title="Radium"><small>88</small><h3><strong>Ra</strong></h3></td>   
+                    <td class="transition" title="Lawrencium"><small>103</small><h3><strong>Lr</strong></h3></td>                 
+                    <td class="transition" title="Rutherfordium"><small>104</small><h3><strong>Rf</strong></h3></td>
+                    <td class="transition" title="Dubnium"><small>105</small><h3><strong>Db</strong></h3></td>
+                    <td class="transition" title="Seaborgium"><small>106</small><h3><strong>Sg</strong></h3></td>
+                    <td class="transition" title="Bohrium"><small>107</small><h3><strong>Bh</strong></h3></td>
+                    <td class="transition" title="Hassium"><small>108</small><h3><strong>Hs</strong></h3></td>
+                    <td class="transition" title="Meitnerium"><small>109</small><h3><strong>Mt</strong></h3></td>
+                    <td class="transition" title="Darmstatdtium"><small>110</small><h3><strong>Ds</strong></h3></td>
+                    <td class="transition" title="Roentgenium"><small>111</small><h3><strong>Rg</strong></h3></td>
+                    <td class="transition" title="Copernicium"><small>112</small><h3><strong>Cn</strong></h3></td>
+                    <td class="othermetals"><small>113</small><h3><strong></strong></h3></td>
+                    <td class="othermetals" title="Flerovium"><small>114</small><h3><strong>Fl</strong></h3></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="18"></td>
+                </tr>
+
+                <tr>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    
+                    <td class="lanthanoids" title="Lanthanum"><small>57</small><h3><strong>La</strong></h3></td>
+                    <td class="lanthanoids" title="Cerium"><small>58</small><h3><strong>Ce</strong></h3></td>
+                    <td class="lanthanoids" title="Praseodymium"><small>59</small><h3><strong>Pr</strong></h3></td>
+                    <td class="lanthanoids" title="Neodymium"><small>60</small><h3><strong>Nd</strong></h3></td>
+                    <td class="lanthanoids" title="Promethium"><small>61</small><h3><strong>Pm</strong></h3></td>
+                    <td class="lanthanoids" title="Samarium"><small>62</small><h3><strong>Sm</strong></h3></td>
+                    <td class="lanthanoids" title="Europium"><small>63</small><h3><strong>Eu</strong></h3></td>
+                    <td class="lanthanoids" title="Gadolinium"><small>64</small><h3><strong>Gd</strong></h3></td>
+                    <td class="lanthanoids" title="Terbium"><small>65</small><h3><strong>Tb</strong></h3></td>
+                    <td class="lanthanoids" title="Dysprosium"><small>66</small><h3><strong>Dy</strong></h3></td>
+                    <td class="lanthanoids" title="Holmium"><small>67</small><h3><strong>Ho</strong></h3></td>
+                    <td class="lanthanoids" title="Erbium"><small>68</small><h3><strong>Er</strong></h3></td>
+                    <td class="lanthanoids" title="Thulium"><small>69</small><h3><strong>Tm</strong></h3></td>
+                    <td class="lanthanoids" title="Ytterbium"><small>70</small><h3><strong>Yb</strong></h3></td>
+                    
+                </tr>
+
+                <tr>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>
+                    <td class="blankcell"></td>  
+                    <td class="actinoids" title="Actinium"><small>89</small><h3><strong>Ac</strong></h3></td>                  
+                    <td class="actinoids" title="Thorium"><small>90</small><h3><strong>Th</strong></h3></td>
+                    <td class="actinoids" title="Protactinium"><small>91</small><h3><strong>Pa</strong></h3></td>
+                    <td class="actinoids" title="Uranium"><small>92</small><h3><strong>U</strong></h3></td>
+                    <td class="actinoids" title="Neptunium"><small>93</small><h3><strong>Np</strong></h3></td>
+                    <td class="actinoids" title="Plutonium"><small>94</small><h3><strong>Pu</strong></h3></td>
+                    <td class="actinoids" title="Americium"><small>95</small><h3><strong>Am</strong></h3></td>
+                    <td class="actinoids" title="Curium"><small>96</small><h3><strong>Cm</strong></h3></td>
+                    <td class="actinoids" title="Berkelium"><small>97</small><h3><strong>Bk</strong></h3></td>
+                    <td class="actinoids" title="Californium"><small>98</small><h3><strong>Cf</strong></h3></td>
+                    <td class="actinoids" title="Einsteinium"><small>99</small><h3><strong>Es</strong></h3></td>
+                    <td class="actinoids" title="Fermium"><small>100</small><h3><strong>Fm</strong></h3></td>
+                    <td class="actinoids" title="Mendelevium"><small>101</small><h3><strong>Md</strong></h3></td>
+                    <td class="actinoids" title="Nobelium"><small>102</small><h3><strong>No</strong></h3></td>                    
+                </tr>
+              
+
+            </table>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
